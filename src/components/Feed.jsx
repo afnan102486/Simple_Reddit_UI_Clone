@@ -36,19 +36,19 @@ const Feed = () => {
             {post.Description}
         </p>
         <div className="flex items-center font-semibold text-xs space-x-4 mt-2">
-          <div className="flex items-center space-x-1 bg-gray-200 rounded-full px-2 py-1">
+          <div className="flex items-center space-x-1 bg-gray-400 rounded-full px-2 py-1">
             <TbArrowBigUp className='h-4 w-4' />
             <span>{post.Upvotes}</span>
             <TbArrowBigDown className='h-4 w-4' />
           </div>
-          <div className="flex items-center bg-gray-200 rounded-full px-2 py-1 space-x-1">
+          <div className="flex items-center bg-gray-400 rounded-full px-2 py-1 space-x-1">
             <FaRegComment className='h-4 w-4' />
             <span>{post.Comments}</span>
           </div>
-          <div className=" bg-gray-200 rounded-full px-2 py-1">
+          <div className=" bg-gray-400 rounded-full px-2 py-1">
             <TbAward className='h-4 w-4'/>
           </div>
-          <div className="flex items-center space-x-1 bg-gray-200 rounded-full px-2 py-1">
+          <div className="flex items-center space-x-1 bg-gray-400 rounded-full px-2 py-1">
             <TbShare3 className='h-4 w-4'/>
             <span>Share</span>
           </div>

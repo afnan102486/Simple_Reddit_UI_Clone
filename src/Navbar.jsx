@@ -11,13 +11,13 @@ const Navbar = () => {
 
       <div className="flex-grow max-w-xl mx-4">
         <input
-          className="w-full bg-slate-200 px-5 py-2 rounded-full text-sm focus:outline-none"
+          className="w-full bg-slate-300 px-5 py-2 rounded-full text-sm focus:outline-none"
           placeholder="Search Reddit"
           type="text"
         />
       </div>
 
-      <div className="flex items-center space-x-4">
+      <div className="flex items-center space-x-4 text-gray-600">
   <FileText className="w-5 h-5 cursor-pointer" />
   <MessageCircle className="w-5 h-5 cursor-pointer" />
   <div className="flex items-center space-x-1 cursor-pointer">

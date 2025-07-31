@@ -20,28 +20,28 @@ import { TbWorld } from "react-icons/tb";
 const Sidebar = () => {
   return (
     <div className="flex flex-col text-[14px] w-56 space-y-4 p-2 border-gray-300">
-      <div className="flex flex-col space-y-1 border-b border-gray-300">
-        <button className=" items-center px-3 py-2 rounded hover:bg-gray-100">
+      <div className="flex flex-col space-y-1 border-b border-gray-300 text-gray-700">
+        <button className="flex items-center px-3 py-2 rounded hover:bg-gray-100">
           <Home className="w-5 h-5 mr-3" /> Home
         </button>
-        <button className=" items-center px-3 py-2 rounded hover:bg-gray-100">
+        <button className="flex items-center px-3 py-2 rounded hover:bg-gray-100">
           <CircleArrowOutUpRight className="w-5 h-5 mr-3" /> Popular
         </button>
-        <button className=" items-center px-3 py-2 rounded hover:bg-gray-100">
+        <button className="flex items-center px-3 py-2 rounded hover:bg-gray-100">
           <HelpCircle className="w-5 h-5 mr-3" /> Answers{" "}
           <span className="ml-1 text-xs text-orange-500">beta</span>
         </button>
-        <button className=" items-center px-3 py-2 rounded hover:bg-gray-100">
+        <button className="flex items-center px-3 py-2 rounded hover:bg-gray-100">
           <Users className="w-5 h-5 mr-3" />
           Explore
         </button>
-        <button className=" items-center px-3 py-2 rounded hover:bg-gray-100 mb-4">
+        <button className="flex items-center px-3 py-2 rounded hover:bg-gray-100 mb-4">
           <BarChart className="w-5 h-5 mr-3" />
           All
         </button>
       </div>
 
-      <div className="space-y-1 border-b border-gray-300">
+      <div className="space-y-1 border-b border-gray-300 text-gray-700">
         <p className="text-gray-500 uppercase text-xs px-3 mb-1">
           Custom Feeds
         </p>
@@ -59,7 +59,7 @@ const Sidebar = () => {
         </button>
       </div>
 
-      <div className="space-y-1 border-b border-gray-300">
+      <div className="space-y-1 border-b border-gray-300 text-gray-700">
         <p className="text-gray-500 uppercase text-xs px-3 mb-1">Communities</p>
         <button className="flex items-center px-3 py-2 rounded hover:bg-gray-100">
           <Plus className="w-5 h-5 mr-3" />
@@ -78,7 +78,7 @@ const Sidebar = () => {
         </button>
       </div>
 
-      <div className="space-y-1 border-b border-gray-300">
+      <div className="space-y-1 border-b border-gray-300 text-gray-700">
         <p className="text-gray-500 uppercase text-xs px-3 mb-1">Resources</p>
         <button className="flex items-center px-3 py-2 rounded hover:bg-gray-100">
           <PiRedditLogoBold className="w-5 h-5 mr-3" />
